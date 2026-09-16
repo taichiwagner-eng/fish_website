@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="fish.css">
+</head>
+
+<body>
+
+<header>
+    <div class="left-header">
+        <!-- Hamburger -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Logo -->
+        <a href="index.html">
+            <img src="images/logofish.png" alt="logo" title="Home page" width="50">
+        </a>
+    </div>
+
+    <!-- Page links -->
+    <nav>
+        <a href="fish-1.html">Plastic</a>
+        <a href="fish-2.html">Effects</a>
+    </nav>
+</header>
+
+<!-- Slide-in sidebar -->
+<div id="sidebar" class="sidebar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="fish-1.html">Plastic</a></li>
+        <li><a href="fish-2.html">Effects</a></li>
+    </ul>
+</div>
+
+<!-- Dark overlay -->
+<div id="overlay" class="overlay" onclick="toggleMenu()"></div>
+
+
+    <section>
+        <h1>Effects of Plastic</h1>
+            <h2>The effects of plastics on fish</h2>
+                <p>Fish are not likely to ingest large pieces of plastic, however, they are more likely to ingest microplastics, which are microscopic plastic fragments. According to an article by EPA, “Plastic debris was found in 97% of the examined fish species, and almost a quarter of individual fish across the four locations in the South Pacific. Of the plastic debris extracted from the samples, 95% were microplastics (smaller than 5 mm).”4 The large plastics in the ocean can break down and become microplastics, which the fish are more prone to seeing as food. However, some larger fish may accidentally consume fish which have eaten plastic, called secondary ingestion.3 Fish that have ingested microplastics are at risk of many issues, such as plastic damaging cells or clogging gills, preventing oxygen intake. According to Environmentamerica, ”After a fish consumes microplastic, much of it stays in the GI tract and triggers false signals of fullness to the brain. Plastic can also cause intestinal obstruction or physical injury, which can lead to death.”2 If the fish unknowingly starve themselves to death, scavengers will eat plastic-infested fish, and also lessen the fish that can be consumed by predators and humans.</p>
+
+                <p>Suspendisse a eros quis libero convallis egestas et in arcu. Duis at metus non nibh pulvinar semper. Etiam eu pulvinar magna. Aenean ante augue, ultrices in lacus ut, volutpat feugiat sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean lacinia sapien quis molestie pulvinar. In quam arcu, bibendum sit amet mi vitae, rhoncus elementum sem.</p>
+<br>
+                <img src="https://images.unsplash.com/photo-1621451749004-a06ae0616c44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmlzaCUyMHdpdGglMjBwbGFzdGljc3xlbnwwfHwwfHx8MA%3D%3D" alt="image" title="plastic near a school of fish" width="300">
+    <br>        <h2>What happens to humans who eat the fish?</h2>
+                <p>Humans who eat plastic through secondary or tertiary consumption are at risk of microplastics damaging cells or disrupting the immune system, both of which are also seen in fish that ate plastic.The article Microplastics in Fish and Fishery Products and Risks for Human Health: A Review stated, “Indeed, they can cause oxidative stress, cytotoxicity, and translocation to other tissues [94]. In organisms subjected to prolonged exposure, however, microplastics can lead to chronic flogosis, cell proliferation, necrosis, and impairment of immune cells.”1  The amount of total plastic ingestion also determines the danger the consumer is in, with more plastic having a larger effect.</p>
+
+                <p>Maecenas blandit risus et lobortis accumsan. Fusce sapien magna, sodales eu sem ut, interdum aliquam sem. Donec sapien tellus, placerat at metus eu, hendrerit elementum ante. Ut eget dolor ac risus condimentum condimentum. Sed sed luctus purus. Sed gravida urna id fermentum interdum. Fusce sit amet commodo diam, non malesuada augue. Maecenas pulvinar diam nibh, ac congue sapien tempor non. In ultrices elit ex, ut consequat ante gravida vestibulum. Sed id libero ac ipsum rhoncus lacinia.</p>
+    </section>
+
+    <footer>
+        <div class="logo">
+        <a href="index.html">
+            <img src="images/logofish.png" alt="logo" title="Home page" width="50">
+        </a>
+        </div>
+        <h3>Back to home</h3>
+    </footer>
+
+<script>
+function toggleMenu() {
+    document.getElementById("sidebar").classList.toggle("show");
+    document.getElementById("overlay").classList.toggle("show");
+}
+</script>
+
+</body>

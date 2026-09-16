@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="fish.css">
+</head>
+
+<body>
+
+<header>
+    <div class="left-header">
+        <!-- Hamburger -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Logo -->
+        <a href="index.html">
+            <img src="images/logofish.png" alt="logo" title="Home page" width="50">
+        </a>
+    </div>
+
+    <!-- Page links -->
+    <nav>
+        <a href="fish-1.html">Plastic</a>
+        <a href="fish-2.html">Effects</a>
+    </nav>
+</header>
+
+<!-- Slide-in sidebar -->
+<div id="sidebar" class="sidebar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="fish-1.html">Plastic</a></li>
+        <li><a href="fish-2.html">Effects</a></li>
+    </ul>
+</div>
+
+<!-- Dark overlay -->
+<div id="overlay" class="overlay" onclick="toggleMenu()"></div>
+
+
+    <section>
+        <h1>Plastic</h1>
+            <h2>What is plastic?</h2>
+                <p>Plastic is a material invented in 1907 that revolutionized the production industry, being mass-producible and cheaper to use.5 However, plastic was not designed to be reusable and is discarded after use. Most waste may be compiled into trash heaps, and some ends up in water sources.</p>
+            <h2>How does plastic enter the ocean?</h2>
+                <p>The ocean is the largest source of water, which also means plastic in water concentrates in the ocean. For example, trash littered on the beach directly enters the ocean, while trash from the riverbank can flow into the ocean. Floods can push debris and litter into the ocean as well.</p>
+<br>
+                <img src="https://images.unsplash.com/photo-1719754519931-0e5763a44d36?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZmlzaCUyMHdpdGglMjBwbGFzdGljc3xlbnwwfHwwfHx8MA%3D%3D" alt="image" title="plastic near a school of fish" width="300">
+<br>
+                <p>Cras rhoncus ipsum diam, malesuada tempus tellus pharetra ac. Proin blandit, magna in tempor commodo, diam ante lobortis arcu, vitae posuere quam nulla at diam. Cras varius lorem mi, vitae commodo lacus venenatis non. Quisque lobortis semper pharetra. Nulla enim neque, sollicitudin in accumsan sed, aliquet in ante. Donec nec vehicula libero, sed faucibus diam. In posuere eu enim ut tempor. Phasellus sed velit nec augue efficitur faucibus. Morbi pharetra scelerisque congue.</p>
+
+                <p>Maecenas blandit risus et lobortis accumsan. Fusce sapien magna, sodales eu sem ut, interdum aliquam sem. Donec sapien tellus, placerat at metus eu, hendrerit elementum ante. Ut eget dolor ac risus condimentum condimentum. Sed sed luctus purus. Sed gravida urna id fermentum interdum. Fusce sit amet commodo diam, non malesuada augue. Maecenas pulvinar diam nibh, ac congue sapien tempor non. In ultrices elit ex, ut consequat ante gravida vestibulum. Sed id libero ac ipsum rhoncus lacinia.</p>
+    </section>
+
+    <footer>
+        <div class="logo">
+        <a href="index.html">
+            <img src="images/logofish.png" alt="logo" title="Home page" width="50">
+        </a>
+        </div>
+        <h3>Back to home</h3>
+    </footer>
+
+<script>
+function toggleMenu() {
+    document.getElementById("sidebar").classList.toggle("show");
+    document.getElementById("overlay").classList.toggle("show");
+}
+</script>
+
+</body>
