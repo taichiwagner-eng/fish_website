@@ -272,4 +272,7 @@ header nav {
     .sidebar {
         width: 220px;
     }
+
+    .logo{
+        text-align: left;
 }
